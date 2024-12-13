@@ -16,7 +16,7 @@ Una aplicación móvil para Android desarrollada en Android Studio que permite a
   <img src="./assets/cap1.jpeg" alt="Pantalla principal" width="150" />
   <img src="./assets/cap2.jpeg" alt="Resultado del juego" width="150" />
   <img src="./assets/cap3.jpeg" alt="Opciones del juego" width="150" />
-  <img src="./assets/cap3.jpeg" alt="Pantalla de puntuación" width="150" />
+  <img src="./assets/cap4.jpeg" alt="Pantalla de puntuación" width="150" />
 </div>
 
 ## Instalación
