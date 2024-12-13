@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagenTitulo"
+        android:layout_width="325dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="-30dp"
+        android:contentDescription="Título del juego"
+        android:src="@drawable/titulo_juego"/>
+
+    <TextView
+        android:id="@+id/textoSeleccionCompu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elección del PC:"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textoResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textoAccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Escoge piedra, papel o tijera!"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgPiedra"
+            android:layout_width="89dp"
+            android:layout_height="94dp"
+            android:layout_margin="8dp"
+            android:contentDescription="Piedra"
+            android:src="@drawable/piedra"/>
+
+        <ImageView
+            android:id="@+id/imgPapel"
+            android:layout_width="89dp"
+            android:layout_height="94dp"
+            android:src="@drawable/papel"
+            android:contentDescription="Papel"
+            android:layout_margin="8dp"/>
+
+        <ImageView
+            android:id="@+id/imgTijera"
+            android:layout_width="89dp"
+            android:layout_height="94dp"
+            android:src="@drawable/tijera"
+            android:contentDescription="Tijera"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/puntajeJugador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tu puntaje: 0"
+            android:textSize="16sp"
+            android:layout_margin="16dp" />
+
+        <TextView
+            android:id="@+id/puntajeCompu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puntaje del PC: 0"
+            android:textSize="16sp"
+            android:layout_margin="1dp" />
+
+</LinearLayout>
