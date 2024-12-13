@@ -10,7 +10,13 @@ Una aplicación móvil para Android desarrollada en Android Studio que permite a
 - Diseñado para dispositivos Android.
 
 ## Capturas de pantalla
-*(Incluir imágenes aquí una vez que estén disponibles)*
+<img src="./assets/cap1.jpeg" alt="Pantalla principal" width="200" />
+<img src="./assets/cap1.jpeg" alt="Resultado del juego" width="200" />
+
+
+## Capturas de pantalla
+![Pantalla principal](./assets/cap1.jpeg)
+![Resultado del juego](./assets/cap2.jpeg)
 
 ## Tecnologías utilizadas
 - **Lenguaje**: Java
